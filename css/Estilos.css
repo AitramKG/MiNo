@@ -1,0 +1,81 @@
+      /*Las listas, en este caso son los botones, hemos puesto unas caracteristicas*/
+      ul
+      {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        background-color: #000000;
+      }
+      /*En uno de los puntos de la lista hemos puesto que este en la izquierda*/
+      li
+      {
+        float: left;
+      }
+      /* */
+      li a
+      {
+        font-size: 25px;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 30px;
+        text-decoration: none;
+      }
+      /* Tiene el estilo puesto para que cuando pases por encima se modifique el color del boton */
+      li a:hover
+      {
+        background-color: #336b96;
+      }
+      /* Para cuando este activo el boton cambie de color*/
+        li a.active
+      {
+        background-color: #336b96;
+      }
+      /*Hemos puesto un div con un color de fondo y un tamaño*/
+
+      div#texto
+      {
+       background:#000000;
+       min-height: 350px; 
+      }
+      /*El hr tiene un tamaño de 25%*/
+      hr
+      {
+        width: 25%;
+      }
+      /* El texto que este en el h1 poner un div y que es color sea blanco y central*/
+      div#texto h1
+      {
+        color:white;
+        font-family: times new roman; 
+        text-align: center;
+      }
+      /*El texto que este dentro del el p sea color blanco y centrado*/
+        div#texto p
+      {
+
+        color:white;
+        font-family: times new roman; 
+        text-align: center;
+      }
+      /* En la imagen tiene que estar centrado y un tamaño personalizado */
+
+       img
+      {
+      width: 25%;
+      height: auto; 
+      padding: 5px;
+      margin: auto;
+      text-align: center;
+      display: block;
+      }
+      /*El footer tiene la letra blanca el fondo negro situado en la izquierda un un tamaño de 10px*/
+      div.footer{
+        color: white;
+        background-color: black;
+        text-align: left;
+        font-weight: bold;
+        padding: 10px;
+        font-family: times new roman;
+      }
